@@ -22,7 +22,7 @@ graph = Neo4jGraph(
 ) 
 
 #Sample question from techqa validation.jsonl file
-template="I receive the following during UDX compilation Can't exec \"/nz/kit/bin/adm/nzudxcompile\": Argument list too long "
+template="I need to move my perpetual license of SPSS v24 to my new machine. I have my authorization code first given to me, but since we did not renew our support contract we can't seem to download the software. I was originally told that I could download the trial version and it would have the authorization wizard where I could input the code and move forward. But the only downloadable version is subscription version with no authorization wizard. How do I move forward? "
 
 prompt = PromptTemplate(input_variables=["question"],template=template)
 
